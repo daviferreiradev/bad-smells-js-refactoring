@@ -1,4 +1,4 @@
-import { ReportGenerator } from '../src/ReportGenerator.js';
+import { ReportGenerator } from '../src/ReportGenerator.refactored.js';
 
 const adminUser = { name: 'Admin', role: 'ADMIN' };
 const standardUser = { name: 'User', role: 'USER' };
@@ -11,7 +11,7 @@ const testItems = [
 
 const mockDb = {};
 
-describe('ReportGenerator (Rede de Segurança)', () => {
+describe('ReportGenerator Refatorado (Rede de Segurança)', () => {
   let generator;
 
   beforeEach(() => {
